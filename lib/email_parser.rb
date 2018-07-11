@@ -6,7 +6,7 @@ class EmailParser
   
   def initialize(emails)
     @emails = emails.parse  
-    if emails.scan(',')
+    if emails.scan()
   end
   
   def parse
