@@ -5,13 +5,10 @@
 class EmailParser
   
   def initialize(emails)
-    @emails = emails.parse  
-    if emails.include?(',')
-      
-    end
+  
   end
   
   def parse
-    
+  
   end
 end
