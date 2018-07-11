@@ -12,6 +12,6 @@ class EmailParser
   # then removes duplicates
   def parse
     result = @emails.split(/\b[,\s]+/)
-    
+    result.uniq
   end
 end
