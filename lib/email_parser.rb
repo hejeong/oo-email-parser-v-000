@@ -10,10 +10,6 @@ class EmailParser
   end
   
   def parse
-    if @emails.include?(',')
-      @emails.split(', ')
-    else
-      @emails.split(' ')
-    end
+  
   end
 end
