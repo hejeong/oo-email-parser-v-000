@@ -5,10 +5,10 @@
 class EmailParser
   
   def initialize(emails)
-  
+    self.parse
   end
   
   def parse
-  
+    if 
   end
 end
