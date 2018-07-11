@@ -6,10 +6,14 @@ class EmailParser
   attr_accessor :parse
   
   def initialize(emails)
-    
+    @emails = emails
   end
   
   def parse
-    if 
+    if @emails.include?(',')
+      
+    else
+      
+    end
   end
 end
