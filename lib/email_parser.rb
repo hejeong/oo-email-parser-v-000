@@ -13,7 +13,7 @@ class EmailParser
     if @emails.include?(',')
       @emails.split(', ')
     else
-      @email.split(' ')
+      @emails.split(' ')
     end
   end
 end
