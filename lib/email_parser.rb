@@ -9,7 +9,7 @@ class EmailParser
   end
   
   # splits the emails by comma, space, or combination of both
-  # then removes duplicates
+  # then returns array of only unique emails
   def parse
     result = @emails.split(/\b[,\s]+/)
     result.uniq
